@@ -1,0 +1,5 @@
+.psc-package/
+node_modules/
+bower_components/
+output/
+result

@@ -1,0 +1,15 @@
+{
+  "name": "purescript-hello",
+  "version": "0.1.0",
+  "description": "",
+  "author": "",
+  "scripts": {
+    "build": "pulp build --to output/hello.js",
+    "build:watch": "pulp --watch build --to output/hello.js",
+    "start": "pulp run",
+    "start:watch": "pulp --watch run"
+  },
+  "dependencies": {
+    "pulp": "11.0.0"
+  }
+}

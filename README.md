@@ -22,7 +22,7 @@ nix-env -e hello-clojure hello-haskell hello-java hello-purescript
 
 ## Project-specific installation
 
-Navigate to one of the language directories, then run any of the following:
+Navigate to one of the language directories, then run any of the following commands.
 
 Install all project dependencies and drop into a shell with those dependencies available:
 

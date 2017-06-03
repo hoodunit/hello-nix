@@ -1,4 +1,4 @@
-(ns clojure-hello.core
+(ns hello-clojure.core
   (:gen-class))
 
 (defn -main [& args]

@@ -1,7 +1,7 @@
 { pkgs ? import ./pkgs.nix }:
 
 pkgs.stdenv.mkDerivation {
-  name = "purescript-hello";
+  name = "hello-purescript";
   src = ./.;
   buildInputs = [
     pkgs.purescript

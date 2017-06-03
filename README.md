@@ -8,7 +8,7 @@ Install the [Nix package manager](http://nixos.org/nix/). Everything else is ins
 
 ## Build all languages
 
-To build and install "Hello world" executables for Clojure, Haskell, and PureScript:
+To build and install "Hello world" executables for Clojure, Haskell, Java, and PureScript:
 
 ```
 nix-env -f default.nix -i '*'
@@ -17,7 +17,7 @@ nix-env -f default.nix -i '*'
 To uninstall all:
 
 ```
-nix-env -e hello-clojure hello-haskell hello-purescript
+nix-env -e hello-clojure hello-haskell hello-java hello-purescript
 ```
 
 ## Project-specific installation

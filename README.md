@@ -14,6 +14,18 @@ To build and install "Hello world" executables for Clojure, Haskell, Java, and P
 nix-env -f default.nix -i '*'
 ```
 
+To run them:
+```
+$ hello-clojure
+Hello, Clojure
+$ hello-purescript
+Hello, PureScript
+$ hello-haskell
+Hello, Haskell
+$ hello-java
+Hello, Java
+```
+
 To uninstall all:
 
 ```
